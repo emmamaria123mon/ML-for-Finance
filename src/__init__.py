@@ -14,4 +14,5 @@ __all__ = [
     "architectures",
     "losses",
     "training",
+    "experiment",
 ]
