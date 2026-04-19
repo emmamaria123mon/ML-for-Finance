@@ -1,6 +1,6 @@
 {
   "meta": {
-    "timestamp_utc": "2026-04-18T13:43:57.823183+00:00",
+    "timestamp_utc": "2026-04-19T15:43:29.638222+00:00",
     "valuation_date_shifted_utc": "2026-03-19T00:00:00+00:00",
     "spot": 659.7999877929688,
     "calibration_expiries": [
@@ -31,13 +31,13 @@
   },
   "calibration": {
     "objective": 4.230450892298693,
-    "surface_mse": 7.320109093785094,
+    "surface_mse": 7.3201090937851125,
     "n_quotes": 231
   },
   "hedging_mse": {
-    "BS delta benchmark (common eval paths)": 20.551480544198576,
-    "Bates delta (MC FD) benchmark (common eval paths)": 553.1208655065984,
-    "Classical LSTM": 390.8796691894531,
-    "Augmented LSTM": 417.4317321777344
+    "BS delta benchmark (common eval paths)": 20.97558542079435,
+    "Bates delta (MC FD) benchmark (common eval paths)": 43.746455903250734,
+    "Classical LSTM": 397.31494140625,
+    "Augmented LSTM": 445.8004455566406
   }
 }
