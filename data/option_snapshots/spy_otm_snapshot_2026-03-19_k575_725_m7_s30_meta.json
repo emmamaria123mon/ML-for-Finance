@@ -1,0 +1,21 @@
+{
+  "valuation_datetime_utc": "2026-03-19T00:00:00+00:00",
+  "snapshot_date": "2026-03-19",
+  "spot": 659.7999877929688,
+  "selected_expiries": [
+    "2026-04-20",
+    "2026-05-22",
+    "2026-06-30",
+    "2026-07-31",
+    "2026-08-31",
+    "2026-09-30",
+    "2026-12-18"
+  ],
+  "hedge_expiry": "2026-04-20",
+  "T_HEDGE": 0.08767123287671233,
+  "max_expiries": 7,
+  "min_expiry_spacing_days": 30,
+  "strike_min": 575.0,
+  "strike_max": 725.0,
+  "strikes_per_expiry": null
+}
