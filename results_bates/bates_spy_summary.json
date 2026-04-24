@@ -1,6 +1,6 @@
 {
   "meta": {
-    "timestamp_utc": "2026-04-20T15:48:13.563320+00:00",
+    "timestamp_utc": "2026-04-24T14:29:00.826120+00:00",
     "valuation_date_shifted_utc": "2026-03-19T00:00:00+00:00",
     "spot": 659.7999877929688,
     "calibration_expiries": [
@@ -20,24 +20,24 @@
     "device": "cpu"
   },
   "bates_params": {
-    "kappa": 6.458215017976025,
-    "theta": 0.04066035856053302,
-    "xi": 0.6978861182456412,
-    "rho": -0.91693463029464,
-    "v0": 0.034845904768251515,
-    "lambdaJ": 0.33408622200338645,
-    "muJ": -0.15691730319193842,
-    "sigmaJ": 0.08919427460316168
+    "kappa": 6.712073455509209,
+    "theta": 0.012368898203497944,
+    "xi": 0.3794711354849267,
+    "rho": -0.7230492285585725,
+    "v0": 0.014553295006712208,
+    "lambdaJ": 1.6061437092779736,
+    "muJ": -0.11096529376982248,
+    "sigmaJ": 0.10353544696092484
   },
   "calibration": {
-    "objective": 2.5283338629841516,
-    "surface_mse": 4.230725533514145,
+    "objective": 2.3933113012152614,
+    "surface_mse": 4.047938089547565,
     "n_quotes": 231
   },
   "hedging_mse": {
-    "BS delta benchmark (common eval paths)": 175.52581227227762,
-    "Bates delta (MC FD) benchmark (common eval paths)": 277.5349678053432,
-    "Classical LSTM": 786.6151123046875,
-    "Augmented LSTM": 871.2275390625
+    "BS delta benchmark (common eval paths)": 787.6735845026161,
+    "Bates delta (MC FD) benchmark (common eval paths)": 693.6955428043927,
+    "Classical LSTM": 1084.4537353515625,
+    "Augmented LSTM": 1186.1435546875
   }
 }
