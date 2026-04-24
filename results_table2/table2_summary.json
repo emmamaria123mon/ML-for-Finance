@@ -1,36 +1,33 @@
 {
   "params": {
     "T": 0.25,
-    "dt": 0.002777777777777778,
+    "DT": 0.002777777777777778,
     "N": 90,
     "batch_size": 50,
     "lr": 0.001,
     "n_iter": 20000,
     "lstm_hidden": 50,
     "ff_width": 10,
-    "ff_layers": 3,
-    "n_train": 50000,
-    "n_eval": 100000,
-    "n_norm": 100000
+    "ff_layers": 3
   },
   "results": {
     "BS call": {
       "Classical LSTM": {
-        "our_mse": 5.495459117810242e-05,
+        "our_mse": 5.6557237257948145e-05,
         "paper_mse": 5.73e-05
       },
       "Augmented LSTM": {
-        "our_mse": 4.616737351170741e-05,
+        "our_mse": 6.410722562577575e-05,
         "paper_mse": 3.97e-05
       }
     },
     "2-markets spread": {
       "Classical LSTM": {
-        "our_mse": 8.168132626451552e-05,
+        "our_mse": 7.616669608978555e-05,
         "paper_mse": 0.000364
       },
       "Augmented LSTM": {
-        "our_mse": 8.41867076815106e-05,
+        "our_mse": 9.473443788010627e-05,
         "paper_mse": 0.000111
       }
     }
